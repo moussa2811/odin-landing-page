@@ -111,3 +111,25 @@ button{
 .item p{
     text-align: center;
 }
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 40px;
+    color: #1f2937;
+}
+
+.citation{
+    width: 800px;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: right;
+    font-weight: bold;
+}
