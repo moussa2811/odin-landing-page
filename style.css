@@ -77,3 +77,37 @@ button{
     border: none;
     padding: 10px 20px;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.item{
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: solid 1px #3882f6;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.item p{
+    text-align: center;
+}
