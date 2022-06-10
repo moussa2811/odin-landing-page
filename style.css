@@ -13,9 +13,11 @@ body{
 }
 
 .nav,
-.header{
+.header,
+.footer{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
@@ -156,4 +158,8 @@ button{
 
 .call button{
     border: 1px solid #f9faf8;
+}
+
+.footer{
+    padding: 20px;
 }
