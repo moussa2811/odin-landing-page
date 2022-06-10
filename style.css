@@ -12,13 +12,18 @@ body{
     flex-direction: column;
 }
 
-.nav{
+.nav,
+.header{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.nav{
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .logo{
@@ -35,4 +40,40 @@ body{
 .links a{
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.header{
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header div{
+    flex-basis: 400px;
+}
+
+.header-txt h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    width: 300px;
+    height: auto;
+}
+
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
 }
