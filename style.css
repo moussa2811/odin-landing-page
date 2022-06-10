@@ -16,4 +16,23 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #e5e7eb;
 }
